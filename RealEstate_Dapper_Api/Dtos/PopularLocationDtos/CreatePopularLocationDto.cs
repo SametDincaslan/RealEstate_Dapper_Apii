@@ -1,0 +1,8 @@
+﻿namespace RealEstate_Dapper_Api.Dtos.PopularLocationDtos
+{
+    public class CreatePopularLocationDto
+    {
+        public string PopularLocationCityName { get; set; }
+        public string PopularLocationImageUrl { get; set; }
+    }
+}
